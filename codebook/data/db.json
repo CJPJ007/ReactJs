@@ -1,0 +1,111 @@
+{
+  "eBooks": [
+    {
+      "id": 1,
+      "imageSource": "http://localhost:3000/eBooksImages/react.jpg",
+      "inStock": true,
+      "name": "React",
+      "rating": 5,
+      "purchased": 1011,
+      "price": 600,
+      "featured": true,
+      "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "desc": "Aesthetically, the well designed components are beautiful and will undoubtedly level up your next application.\" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum cupiditate qui eos. Quod voluptas dolores dicta? Tenetur repellat est"
+    },
+    {
+      "id": 2,
+      "imageSource": "http://localhost:3000/eBooksImages/java.jpg",
+      "inStock": false,
+      "name": "Java",
+      "rating": 4.7,
+      "purchased": 2011,
+      "price": 200,
+      "featured": true,
+      "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "desc": "Aesthetically, the well designed components are beautiful and will undoubtedly level up your next application.\" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum cupiditate qui eos. Quod voluptas dolores dicta? Tenetur repellat est"
+    },
+    {
+      "id": 3,
+      "imageSource": "http://localhost:3000/eBooksImages/cpp.jpg",
+      "inStock": true,
+      "name": "C++",
+      "rating": 3,
+      "purchased": 1012,
+      "price": 300,
+      "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "desc": "Aesthetically, the well designed components are beautiful and will undoubtedly level up your next application.\" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum cupiditate qui eos. Quod voluptas dolores dicta? Tenetur repellat est"
+    },
+    {
+      "id": 4,
+      "imageSource": "http://localhost:3000/eBooksImages/ml.jpg",
+      "inStock": true,
+      "name": "ML",
+      "rating": 2,
+      "purchased": 10,
+      "price": 400,
+      "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "desc": "Aesthetically, the well designed components are beautiful and will undoubtedly level up your next application.\" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum cupiditate qui eos. Quod voluptas dolores dicta? Tenetur repellat est"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "imageSource": "http://localhost:3000/reviewImages/reviewImage1.avif",
+      "title": "Very easy this was to integrate",
+      "name": "Bonnie Green",
+      "desc": "If you care for your time, I hands down would go with this.\"",
+      "position": "Developer at Random AI"
+    },
+    {
+      "id": 2,
+      "imageSource": "http://localhost:3000/reviewImages/reviewImage2.avif",
+      "title": "Solid foundation for any project",
+      "name": "Roberta Casas",
+      "desc": "Designing with Figma components that can be easily translated to the utility classes of Tailwind CSS is a huge timesaver!\"",
+      "position": "Lead designer at Random"
+    },
+    {
+      "id": 3,
+      "imageSource": "http://localhost:3000/reviewImages/reviewImage3.avif",
+      "title": "Mindblowing workflow",
+      "name": "Jese Leos",
+      "desc": "Aesthetically, the well designed components are beautiful and will undoubtedly level up your next application.\"",
+      "position": "Software Engineer at Random"
+    },
+    {
+      "id": 4,
+      "imageSource": "http://localhost:3000/reviewImages/reviewImage4.avif",
+      "title": "Efficient Collaborating",
+      "name": "Joseph McFall",
+      "desc": "You have many examples that can be used to create a fast prototype for your team.\"",
+      "position": "CTO at Random"
+    }
+  ],
+  "fAQs": [
+    {
+      "id": 1,
+      "question": "Why should I use codebook?",
+      "answer": "akbgjr,kal;'sldkjbkdl;sdlkljgalsdkjfnbjvldk;fjnklsdfkngbdl;"
+    },
+    {
+      "id": 2,
+      "question": "Can I access my eBook on mobile?",
+      "answer": "akbgjr,kal;'sldkjbkdl;sdlkljgalsdkjfnbjvldk;fjnklsdfkngbdl;"
+    },
+    {
+      "id": 3,
+      "question": "Do you offer refunds?",
+      "answer": "akbgjr,kal;'sldkjbkdl;sdlkljgalsdkjfnbjvldk;fjnklsdfkngbdl;"
+    },
+    {
+      "id": 4,
+      "question": "Do you offer International Payments?",
+      "answer": "akbgjr,kal;'sldkjbkdl;sdlkljgalsdkjfnbjvldk;fjnklsdfkngbdl;"
+    },
+    {
+      "id": 5,
+      "question": "Does codebook contain all latest available eBooks?",
+      "answer": "akbgjr,kal;'sldkjbkdl;sdlkljgalsdkjfnbjvldk;fjnklsdfkngbdl;"
+    }
+  ]
+}
