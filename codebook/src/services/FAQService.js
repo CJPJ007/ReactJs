@@ -1,5 +1,6 @@
 import useFetch from "../helpers/useFetch"
 
+const apiBaseUrl = process.env.REACT_APP_HOST;
 export const useFQA = ()=>{
-    return useFetch("http://localhost:4000/fAQs","GET",null);
+    return useFetch(`${apiBaseUrl}/fAQs`,"GET",null);
 }

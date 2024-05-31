@@ -1,5 +1,6 @@
 import useFetch from "../helpers/useFetch"
 
+const apiBaseUrl = process.env.REACT_APP_HOST;
 export const useFetchReviews = () => {
-    return useFetch("http://localhost:4000/reviews","GET",null);
+    return useFetch(`${apiBaseUrl}/reviews`,"GET",null);
 }

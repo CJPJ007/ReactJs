@@ -1,15 +1,30 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useCartContext } from "../../helpers/Context/CartProvider";
 import TotalAmount from "../Cart/TotalAmount";
 import { useNavigate } from "react-router-dom";
+import { getUser } from "../../services/UserService";
 
 export default function Payment({ show, setShow }) {
-    const [state,] = useCartContext();
+    const [user,setUser] = useState('');
+    const [state,dispatch] = useCartContext();
     const navigate = useNavigate();
     const makePayment = (e)=>{
         e.preventDefault();
+        dispatch({
+          type:"CLEAR_CART"
+        });
         navigate("/order-summary");
     }
+    const getUserDetails = async (id)=>{
+      const response = await getUser(id);
+      console.log("response : ",response);
+      setUser(response[0]);
+    }
+  
+    useEffect(()=>{
+      const id = localStorage.getItem('id');
+      getUserDetails(id);
+    },[]);
   return (
     <div
       className={`${
@@ -32,6 +47,8 @@ export default function Payment({ show, setShow }) {
             type="text"
             name="name"
             id=""
+            value={user.name}
+            disabled
             className="p-2 bg-gray-300/40 focus:outline-none border-2 rounded-md border-gray-200/50"
           />
           <label htmlFor="eMail">Email:</label>
@@ -39,6 +56,8 @@ export default function Payment({ show, setShow }) {
             type="text"
             name="eMail"
             id=""
+            value={user.email}
+            disabled
             className="p-2 bg-gray-300/40 focus:outline-none border-2 rounded-md border-gray-200/50"
           />
           <label htmlFor="cardNum">Card Number:</label>

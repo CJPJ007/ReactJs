@@ -24,6 +24,11 @@ export const cartReducer = (state, action) => {
       };
     case "REMOVE_FROM_CART":
       return removeFromCart(state, action);
+    case "CLEAR_CART":
+      return {
+        ...state,
+        cartProducts: [],
+      };
     default:
       throw new Error("No such action");
   }

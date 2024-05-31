@@ -9,19 +9,19 @@ export default function Footer() {
       </p>
       <div className="flex space-x-4">
         <Link>
-          <i class="bi bi-instagram"></i>
+          <i className="bi bi-instagram"></i>
         </Link>
         <Link>
-          <i class="bi bi-twitter"></i>
+          <i className="bi bi-twitter"></i>
         </Link>
         <Link>
-          <i class="bi bi-github"></i>
+          <i className="bi bi-github"></i>
         </Link>
         <Link>
-          <i class="bi bi-facebook"></i>
+          <i className="bi bi-facebook"></i>
         </Link>
         <Link>
-          <i class="bi bi-youtube"></i>
+          <i className="bi bi-youtube"></i>
         </Link>
       </div>
     </footer>

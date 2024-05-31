@@ -107,5 +107,19 @@
       "question": "Does codebook contain all latest available eBooks?",
       "answer": "akbgjr,kal;'sldkjbkdl;sdlkljgalsdkjfnbjvldk;fjnklsdfkngbdl;"
     }
+  ],
+  "users": [
+    {
+      "email": "a@a.a",
+      "password": "$2a$10$xqVs8GOqbZvD5HhqPj2GqO1b5J1Mu71g/B5qSKc/bUnc/MNwgaY8a",
+      "name": "Chauhan Jaypal Jagdishbhai",
+      "id": 1
+    },
+    {
+      "email": "ksdjks@dess.csdf",
+      "password": "$2a$10$7ZbnENdvvHpfeK0nr4JUROYag6XRzkdtnI.3fPpY/x4x5u19EM52u",
+      "name": "Strawberry",
+      "id": 2
+    }
   ]
 }

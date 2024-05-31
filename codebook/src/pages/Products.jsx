@@ -20,6 +20,7 @@ export default function Products() {
       type:"INITIAL_PRODUCTS",
       payload:data
     });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[data]);
 
   return (
